@@ -1,0 +1,73 @@
+account_tag,account_code,parent_code,statement_type,account_name,is_total,orden
+SalesRevenueNet,1001,1100,IS,Revenue from Contracts with Customers,False,1
+RevenueFromContractWithCustomerExcludingAssessedTax,1020,1100,IS,Revenue from Contracts with Customers,False,1
+CostOfGoodsAndServicesSold,1030,1100,IS,Cost of Sales,False,2
+GrossProfit,1040,,IS,Gross Margin,True,3
+OperatingExpenses,1050,,IS,Operating Expenses,True,4
+ResearchAndDevelopmentExpense,1060,1200,IS,Research and Development,False,5
+SellingGeneralAndAdministrativeExpense,1070,1200,IS,"Selling, General and Administrative",False,6
+OperatingIncomeLoss,1080,,IS,Operating Income,True,7
+NonoperatingIncomeExpense,1090,1300,IS,"Other Income / (Expense), Net",False,8
+InterestExpense,1510,,IS,Interest Expense,False,9
+IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest,1093,1400,IS,Income Before Provision for Income Taxes,True,10
+IncomeTaxExpenseBenefit,1096,1500,IS,Provision for Income Taxes,False,11
+NetIncomeLoss,1099,1600,IS,Net Income,True,12
+NetIncomeLoss,3100,,CF,Net Income Flow,False,13
+Assets,2000,,BS,Total Assets,True,14
+AssetsCurrent,2010,2000,BS,Current Assets,True,15
+CashAndCashEquivalentsAtCarryingValue,2011,2010,BS,Cash and Cash Equivalents,False,16
+MarketableSecuritiesCurrent,2012,2010,BS,Marketable Securities (Current),False,17
+AccountsReceivableNetCurrent,2013,2010,BS,"Accounts Receivable, Net",False,18
+NontradeReceivablesCurrent,2014,2010,BS,Vendor Non-trade Receivables,False,19
+InventoryNet,2015,2010,BS,Inventories,False,20
+OtherAssetsCurrent,2016,2010,BS,Other Current Assets,False,21
+AssetsNoncurrent,2020,2000,BS,Non-current Assets,True,22
+MarketableSecuritiesNoncurrent,2021,2020,BS,Marketable Securities (Non-current),False,23
+PropertyPlantAndEquipmentNet,2022,2020,BS,"Property, Plant and Equipment, Net",False,24
+OtherAssetsNoncurrent,2023,2020,BS,Other Non-current Assets,False,25
+Liabilities,2100,,BS,Total Liabilities,True,26
+LiabilitiesCurrent,2110,2100,BS,Current Liabilities,True,27
+AccountsPayableCurrent,2111,2110,BS,Accounts Payable,False,28
+OtherLiabilitiesCurrent,2112,2110,BS,Other Current Liabilities,False,29
+ContractWithCustomerLiabilityCurrent,2113,2110,BS,Deferred Revenue,False,30
+CommercialPaper,2114,2110,BS,Commercial Paper,False,31
+LongTermDebtCurrent,2115,2110,BS,Current Portion of Term Debt,False,32
+LiabilitiesNoncurrent,2120,2100,BS,Non-current Liabilities,True,33
+LongTermDebtNoncurrent,2121,2120,BS,"Term Debt, Non-current",False,34
+OtherLiabilitiesNoncurrent,2122,2120,BS,Other Non-current Liabilities,False,35
+StockholdersEquity,2200,,BS,Shareholders’ Equity,True,36
+CommonStocksIncludingAdditionalPaidInCapital,2201,2200,BS,Common Stock and APIC,False,37
+RetainedEarningsAccumulatedDeficit,2202,2200,BS,Accumulated Deficit,False,38
+AccumulatedOtherComprehensiveIncomeLossNetOfTax,2203,2200,BS,Accumulated Other Comprehensive Loss,False,39
+LiabilitiesAndStockholdersEquity,2300,,BS,Total Liabilities and Shareholders’ Equity,True,40
+CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents,3000,,CF,Cash and Cash Equivalents (Beginning Balance),False,41
+DepreciationDepletionAndAmortization,3110,3190,CF,Depreciation and Amortization,False,42
+ShareBasedCompensation,3120,3190,CF,Share-based Compensation,False,43
+OtherNoncashIncomeExpense,3130,3190,CF,Other Non-cash Items,False,44
+IncreaseDecreaseInAccountsReceivable,3140,3180,CF,Change in Accounts Receivable,False,45
+IncreaseDecreaseInOtherReceivables,3150,3180,CF,Change in Other Receivables,False,46
+IncreaseDecreaseInInventories,3160,3180,CF,Change in Inventories,False,47
+IncreaseDecreaseInOtherOperatingAssets,3170,3180,CF,Change in Other Operating Assets,False,48
+IncreaseDecreaseInAccountsPayable,3181,3185,CF,Change in Accounts Payable,False,49
+IncreaseDecreaseInOtherOperatingLiabilities,3182,3185,CF,Change in Other Operating Liabilities,False,50
+NetCashProvidedByUsedInOperatingActivities,3199,,CF,Net Cash from Operating Activities,True,51
+PaymentsToAcquireAvailableForSaleSecuritiesDebt,3210,3290,CF,Purchases of Marketable Securities,False,52
+ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities,3220,3290,CF,Maturities of Marketable Securities,False,53
+ProceedsFromSaleOfAvailableForSaleSecuritiesDebt,3230,3290,CF,Sales of Marketable Securities,False,54
+PaymentsToAcquirePropertyPlantAndEquipment,3240,3290,CF,Capital Expenditures,False,55
+PaymentsForProceedsFromOtherInvestingActivities,3250,3290,CF,Other Investing Activities,False,56
+NetCashProvidedByUsedInInvestingActivities,3299,,CF,Net Cash from Investing Activities,True,57
+PaymentsRelatedToTaxWithholdingForShareBasedCompensation,3310,3390,CF,Taxes on Equity Awards,False,58
+PaymentsOfDividends,3320,3390,CF,Dividends Paid,False,59
+PaymentsForRepurchaseOfCommonStock,3330,3390,CF,Share Repurchases,False,60
+ProceedsFromIssuanceOfLongTermDebt,3340,3390,CF,Issuance of Long-term Debt,False,61
+RepaymentsOfLongTermDebt,3350,3390,CF,Repayment of Long-term Debt,False,62
+ProceedsFromRepaymentsOfCommercialPaper,3360,3390,CF,Commercial Paper (Net),False,63
+ProceedsFromPaymentsForOtherFinancingActivities,3370,3390,CF,Other Financing Activities,False,64
+NetCashProvidedByUsedInFinancingActivities,3399,,CF,Net Cash from Financing Activities,True,65
+CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect,3490,,CF,Net Increase / Decrease in Cash,True,66
+IncomeTaxesPaidNet,3500,,CF,Income Taxes Paid (Supplemental),False,67
+WeightedAverageNumberOfSharesOutstandingBasic,4100,,SH,Weighted Average Shares Outstanding (Basic),False,68
+WeightedAverageNumberOfDilutedSharesOutstanding,4200,,SH,Weighted Average Shares Outstanding (Diluted),False,69
+CommonStockSharesOutstanding,4300,,SH,Common Shares Outstanding (End of Period),False,70
+CommonStockSharesIssued,4400,,SH,Common Shares Issued,False,71
